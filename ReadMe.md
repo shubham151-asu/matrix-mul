@@ -4,7 +4,7 @@ Dependencies :
 
 Build
 -----------------
-g++ multi-threaded-matrix-mul.cpp -std=c++11 -pthread -o <excecutableName>
+g++ multi-threaded-matrix-mul.cpp -std=c++11 -pthread -o excecutableName
 
 Run
 ------------------
@@ -24,11 +24,11 @@ Optional params
 	test-> 0 : Test With Random number generator
        	       1 : Test with all values in matrices = 1 , Easy to debug	
 1) Transpose
-	1) <executableName> M1 N1 0
+	1) ./executableName M1 N1 0
 
 2) Matrix Multiplication
-	1)  <executableName> M1 N1 M2 N2 1 (Will generate a matrix Inputs with random numbers)
-	2)  <executableName> M1 N1 M2 N2 1 1 (Will generate a matrix Inputs with all ones)
+	1)  ./executableName M1 N1 M2 N2 1 (Will generate a matrix Inputs with random numbers)
+	2)  ./executableName M1 N1 M2 N2 1 1 (Will generate a matrix Inputs with all ones)
 
 Restrictions
 	None as long as N1==M2 any matrix multiplication is allowed and memory is available to 	
